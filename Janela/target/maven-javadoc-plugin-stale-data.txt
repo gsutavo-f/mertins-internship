@@ -1,0 +1,48 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'/home/gsutavo/NetBeansProjects/Janela/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Janela 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/gsutavo/NetBeansProjects/Janela/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Janela 1.0-SNAPSHOT API'
+Exercicio
+/home/gsutavo/NetBeansProjects/Janela/src/main/java = 1629912382180
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/allclasses.html = 1630085096900
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/package-search-index.js = 1630085096888
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/package-search-index.zip = 1630085096892
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/serialized-form.html = 1630085096876
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/element-list = 1630085096864
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/search.js = 1630085096904
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/index-all.html = 1630085096892
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/help-doc.html = 1630085096904
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/overview-tree.html = 1630085096888
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/deprecated-list.html = 1630085096900
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/member-search-index.zip = 1630085096892
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/index.html = 1630085096900
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/stylesheet.css = 1630085096904
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/constant-values.html = 1630085096872
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/allclasses-index.html = 1630085096896
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/allpackages-index.html = 1630085096896
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/script.js = 1630085096904
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/member-search-index.js = 1630085096892
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/type-search-index.zip = 1630085096892
+/home/gsutavo/NetBeansProjects/Janela/target/site/apidocs/type-search-index.js = 1630085096892

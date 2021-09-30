@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <h3>Colegiado UFPel<br/>Manutencao do Orgao Colegiado</h3>
+        </header>
+        <section class="container">
+            <div class="grid-container gc1">
+                <div class="grid-item">Unidade</div>
+                <div class="grid-item">FACULDADE DE ENGENHARIA DE ILHA CASADA</div>
+                <div class="grid-item">Tipo de Colegiado</div>
+                <div class="grid-item">CONGREGACAO</div>
+            </div>
+            <div class="grid-container gc2">
+                <div class="grid-item">Orgao Colegiado</div>
+                <div class="grid-item">
+                    <form>
+                        <div class="form-item">
+                            <label for="fnome">Nome</label>
+                            <input type="text" id="fnome" name="fnome" placeholder="CONGREGACAO DA FACULDADE DE ILHA SOLTEIRA"><br/>
+                        </div>
+                        <div class="form-item">
+                            <label for="fsigla">Sigla</label>
+                            <input type="text" id="fsigla" name="fsigla" placeholder="CFIS"/>
+                            <label for="fstatus">Status</label>
+                            <select id="status" name="fstatus">
+                                <option value="ativado">ATIVADO</option>
+                                <option value="desativado">DESATIVADO</option>
+                            </select>
+                        </div>
+                        <div class="form-item">
+                            <label for="fdtativacao">Data Ativacao</label>
+                            <input type="date" id="fdtativacao"/>
+                            <label for="fdtdesativacao">Data Desativacao</label>
+                            <input type="date" id="fdtdesativacao"/>
+                        </div>
+                        <div class="form-item">
+                            <label for="forgaoorigem">Orgao Origem</label>
+                            <input type="number" id="forgaoorigem" onkeypress="return onlyNumberKey(event)"/>
+                            <button type="button" class="button origem-button">Buscar</button>
+                        </div>
+                        <div class="form-item">
+                            <label for="forgaosuperior">Orgao Superior</label>
+                            <input type="number" id="forgaosuperior" onkeypress="return onlyNumberKey(event)"/>
+                            <button type="button" class="button origem-button">Buscar</button>
+                        </div>
+                        <div class="form-item">
+                            <label for="fdocumentacao">Documentacao</label>
+                        </div>
+                        <div class="form-item">          
+                            <textarea id="fdocumentacao" name="documentacao" rows="5" cols="80">Órgão criado com objetivo de aprovar normas da unidade</textarea>
+                            <button type="button" class="button origem-button">Buscar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="button-return">
+                <button type="button" class="button return-button">Retornar</button>
+            </div>
+        </section>
+    </body>
+</html>
