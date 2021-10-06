@@ -21,12 +21,12 @@ public class main {
         }
         System.out.println("Size: " + carros.size());
         
-        em.getTransaction().begin();
-        Carro carro = new Carro();
-        carro.setNome("Celta");
-        carro.setPreco(15000.0);
-        em.persist(carro);
-        em.getTransaction().commit();
+//        em.getTransaction().begin();
+//        Carro carro = new Carro();
+//        carro.setNome("Celta");
+//        carro.setPreco(15000.0);
+//        em.persist(carro);
+//        em.getTransaction().commit();
         
         em.close();
     }
